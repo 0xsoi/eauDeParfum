@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 150px auto;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 10px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+.right {
+    padding: 25px;
+}   
+
+.text {
+    padding: 10px;
+}
+
+.right h1 {
+    color: hsl(228, 12%, 48%);
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.right h2 {
+    color: hsl(212, 21%, 14%);
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'Fraunces', serif;
+}
+
+.text p {
+    color: hsl(228, 12%, 48%);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.text .price {
+    color: hsl(125, 45%, 26%);
+    font-size: 35px;
+    margin-top: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+}
+
+span {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.right .button {
+    position: relative;
+    left: 10px;
+    padding: 20px 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(123, 51%, 14%);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ .right .button img {
+    size: 20px;
+    color: black;
+}
